@@ -7,30 +7,33 @@
 	<title>repl.it</title>
 	<link href="index.css" rel="stylesheet" type="text/css" />
 </head>
-
+<header>
+	<button class='hamburger'>&#9776;</button>
+</header>
+ 
 <body>
-	<h1>Welcome _______</h1>
-	<p>
-		<input id="name" placeholder="Enter you name" />
-		<button id="action">Action!!!</button>
-	</p>
-	<p id="hide-me">I will be hidden.</p>
-	<p id="show-me" style="display: none;">I will be shown.</p>
-	<p id="grow-me">I will grow.</p>
-	<p id="shrink-me" class="big">I will shrink.</p>
-	<p>
-		A link to
-		<a class="link" href="broken-link">nowhere</a>.
-	</p>
-	<ol>
-		<li>Document</li>
-		<li>Object</li>
-		<li>Model</li>
-	</ol>
+	<div class="menu">
+		<ul>
+			<a href="#" id="alpha">
+				<li>Letters</li>
+			</a>
+			<a href="#" id="numerals">
+				<li>Numbers</li>
+			</a>
+		</ul>
+	</div>
 
-  <script   src="https://code.jquery.com/jquery-3.3.1.js"   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="   crossorigin="anonymous"></script>
+	<div class="letters">
+		A B C D E F G H I J K L M <br> N O P Q R S T U V W X Y Z
+	</div>
 
+	<div class="numbers">
+		1 2 3 4 5 6 7 8 9 10
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
 	<script src="index.js"></script>
+
 </body>
 
 </html>
